@@ -51,3 +51,15 @@ for (let even of evenNumbers) {
     console.log(even);
   }
 }
+
+//Додаткове
+const array1 = [5, 10, 15, 20];
+const array2 = [10, 20, 30];
+let sum = 0;
+for (let number1 of array1) {
+  sum += number1;
+}
+for (let number2 of array2) {
+  sum += number2;
+}
+console.log(sum);
